@@ -1,0 +1,269 @@
+/* colors
+    #094266
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4ABDAC;
+}
+h1,
+h2,
+h3,h4 {
+  font-family:"Raleway", sans-serif;
+  text-transform: uppercase;
+
+  padding: 0;
+  margin: 0;
+
+  color:  #2a3747;
+}
+h1 {
+    font-size: 40px;
+  }
+
+p, label, button, input{
+    color: #000;
+    font-family: "Raleway";
+}
+/* main and nav bar */
+main{
+    height: 110vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around; 
+}
+nav img{
+    width: 100px;   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #094266;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #006B9A;
+}
+
+.Message {
+    background: white;
+    padding: 30px;
+
+    box-shadow:  0 2px 4px -1px rgba(0, 0, 0, 0.06),
+    0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+  }
+  
+  .Message > .Title {
+    padding-bottom: 20px;
+  }
+  
+/* specialities */
+.specialities{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    text-align: center;
+}
+.specialities .specialities-items{
+    background-color: #f7b733;
+    padding: 50px 30px;
+    border-radius: 80px 10px;
+}
+.specialities-items p{
+    margin-top: 5px;
+}
+.specialities h3{
+    margin-top: 12px;
+}
+.specialities i{
+    color: #fff;
+}
+/* about Khaphuche */
+.about-section{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #F5F5DC;
+}
+.about-section h3{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.about-section p{
+    padding: 20px 40px;
+    text-align: center;
+    line-height: 1.6;
+}
+.photo{
+    background-attachment: fixed;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+}
+.photo img{
+    width: 100%;
+    margin-top: 4px;
+    
+}
+
+/* service and packages */
+.service{
+    margin-top: 200px;
+}
+.service h1{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.service-package{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+.service-package .packages{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.service-package .managewaste{
+    background-image: url('../image/21.jpg');
+    background-size: cover;
+}
+.service-package .family-pack{
+    background-image: url('../image/20.jpg');
+    background-size: cover;
+}
+.service-package .nepali{
+    background-image: url('../image/22.jpg');
+    background-size: cover;
+}
+.packages h3{
+    margin-top: 80px;
+    background-color: #fde992;
+    padding: 5px 0;
+}
+/* queries*/
+.queries{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin: 50px 0;
+}
+.queries h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.queries label{
+    font-weight: bold;
+}
+.queries textarea{
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #92C9E6;
+    background-color: #F5F5DC;
+}
+
+.queries input{
+    margin-top: 10px;
+    padding: 8px;
+    width: 400px;
+    border: 1px solid #92C9E6;
+    background-color: #F5F5DC;
+}
+.queries button{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #006B9A;
+    border-radius: 2px;
+    background-color: transparent;
+}
+.queries button:hover{
+    background-color: #006B9A;
+}
+/* merchant */
+.merchant{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.merchant h1{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card {
+    width: 30%;
+    border-radius: 5px;
+    background-color: #f7b733;
+  }
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+.card button{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 3px 15px; 
+    border: 1px solid #006B9A;
+    background-color: transparent;
+    border-radius: 2px;
+}
+.card button:hover{
+    background-color: #006B9A;
+}
+.buy-button p{
+    align-self: center;
+}
+.buy-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* shadow */
+.specialities-items, .card, .packages{ 
+    box-shadow: 4px 4px 4px  rgba(0, 0, 0), -2px -2px 4px  rgba(255, 255, 255);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.specialities-items:hover, .card:hover, .packages:hover{
+    box-shadow: 4px 4px 4px rgba(146, 201, 230);
+}
